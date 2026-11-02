@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design with Sound & Vision: Shanxi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shanxi Heritage: Sound & Vision</h1>
+        <p>Explore the soundscape and visualscape of ancient Shanxi architecture.</p>
+        
+        <div class="controls">
+            <button id="btn-play">Play Experience</button>
+            <button id="btn-pause">Pause Experience</button>
+            <button id="btn-effect">Toggle Visual Effect</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="media-container">
+            <video id="bg-video" loop muted>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            
+            <div class="overlay-info">
+                <h2>Ancient Temples of Shanxi</h2>
+                <p>A journey through historic wooden architecture and ambient sound.</p>
+            </div>
+        </div>
+
+        <audio id="soundscape" loop>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
